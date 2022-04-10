@@ -1,0 +1,9 @@
+SWAP1M:
+  - PX_MID
+  - PX_LAST
+SWAP3M:
+  - PX_MID
+  - PX_LAST
+SWAP6M:
+  - PX_MID
+  - PX_LAST

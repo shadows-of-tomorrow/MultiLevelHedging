@@ -1,0 +1,7 @@
+EUR_6M:
+  CALENDAR:
+    - TARGET
+  DAY_COUNTER:
+    - Actual360
+  TICKERS:
+    - EURIBOR6M

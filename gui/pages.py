@@ -8,11 +8,6 @@ import matplotlib.animation as animation
 class HomePage(tk.Frame):
 
     def __init__(self, parent, controller):
-        """
-        Shows navigation options and settings.
-        :param parent:
-        :param controller:
-        """
         tk.Frame.__init__(self, parent)
 
         label = tk.Label(self, text="Home Page", font=("Verdana", 12))
@@ -25,11 +20,6 @@ class HomePage(tk.Frame):
 class CurvePage(tk.Frame):
 
     def __init__(self, parent, controller):
-        """
-        Shows real-time bootstrapped (multi-level) curves.
-        :param parent:
-        :param controller:
-        """
         tk.Frame.__init__(self, parent)
 
         self.f, self.a = self._construct_figure()

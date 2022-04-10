@@ -12,10 +12,7 @@ class Engine:
         self.gui = HedgeGUI(self.curve_manager)
 
     def _curve_mods(self):
-        """
-        Todo: This should be linked to quote updates.
-        :return:
-        """
+        # Todo: Horrible placeholder function.
         while True:
             time.sleep(1)
             new_quotes = np.random.normal(0.01, 0.05, size=(len(self.curve_manager.deposit_quotes),))

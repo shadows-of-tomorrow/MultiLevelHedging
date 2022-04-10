@@ -4,7 +4,9 @@ from datetime import datetime
 
 class CurveManager:
     """
-    Todo: Just a dummy class for testing!
+    Handles the construction of term structures.
+    Due to the observer pattern design of QuantLib curves
+    are automatically adjusted if market quotes change.
     """
 
     def __init__(self) -> None:
